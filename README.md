@@ -127,6 +127,8 @@ The next step was to include an additional state of $^{12}$C — specifically th
 We performed the Coupled-Channel Calculation coupling also the Hoyle-State (state above) for each J with the same parameters obtained throught the previous analysis to verify the effects mentioned , in the figure below we show this effect, confirming that coupling more inelastic states do a strong difference in the fusion cross-section, what was our main goal. 
 
 
+Building upon the previous coupled-channel calculation, in which one inelastic state of $^{12}$C was already included, we extended the model by also coupling the Hoyle state ($0^+$ at 7.654 MeV) for each value of $J$. Using the same parameters obtained from the earlier analysis, our goal was to evaluate whether the inclusion of an additional inelastic state would further impact the fusion cross section and the astrophysical S-factor. As shown in the figure below, the effect is indeed significant—demonstrating that coupling multiple inelastic states leads to notable modifications in the fusion behavior. This result reinforces the importance of channel couplings in low-energy nuclear reactions.
+
 
 
 
