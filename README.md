@@ -11,3 +11,5 @@ During the helium-burning phase in stars, when the core temperature exceeds $10^
 
 Unlike the triple-alpha process, whose reaction rate is relatively well known, the $^{12}C(\alpha,\gamma)^{16}O$ reaction remains uncertain, especially at low energies around the Gamow peak (~300 keV). At these energies, the cross sections are extremely small (~10^{-8} barn), making direct measurement challenging. Additionally, subthreshold states in $^{16}O$ at 6.92 MeV (2⁺) and 7.12 MeV (1⁻) play a significant role in shaping the low-energy behavior, complicating theoretical extrapolations.
 
+
+
