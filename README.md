@@ -77,11 +77,16 @@ $$
 Hence, for each partial wave—of which only the first few contribute significantly at astrophysical energies—when the system's energy approaches that of a resonance, the corresponding term in the cross section tends to diverge. This behavior manifests as a sharp increase (a "bump") of approximately $\pi$ in the phase shift. Physically, such resonant behavior reflects the formation of a quasi-bound state in the compound nucleus $^{16}$O, which can be interpreted as a configuration of an $\alpha$ particle interacting with a $^{12}$C core.
 
 
-Following this first stage, we developed a Python program to fit the phase shifts for each value of the total angular momentum $J$ by varying the normalization factor $N_R$. As noted in the reference work, this procedure effectively introduces a $J$-dependence into the nuclear potential. The best fits obtained for each partial wave considered are shown below
+Following this first stage, we developed a Python program to fit the phase shifts for each value of the total angular momentum $J$ by varying the normalization factor $N_R$. As pointed out in the reference work, this procedure introduces a $J$-dependent character into the nuclear potential. The best-fit phase shifts obtained for each partial wave are presented below. Additionally, we include the corresponding $\chi^2$ curves as a function of $N_R$ for $J = 0$, $1$, and $3$, to illustrate how the fitting procedure was performed and to provide insight into the sensitivity of the fit to the choice of $N_R$.
 
 <p align="center">
-  <img src="figures/Potential_image_page-0001.jpg" alt="Cross section plot" width="500">
+  <img src="figures/J0.png" alt="Plot 1" width="45%" style="display:inline-block;">
+  <img src="figures/J1.png" alt="Plot 2" width="45%" style="display:inline-block;">
 </p>
+
+
+
+
 
 
 
