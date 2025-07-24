@@ -84,7 +84,7 @@ Following this first stage, we developed a Python program to fit the phase shift
   <img src="figures/J1.jpeg" alt="Plot 2" width="45%" style="display:inline-block;">
 </p>
 <p align="center">
-  <img src="figures/J3.jpeg" alt="Cross section plot" width="500">
+  <img src="figures/J3.jpeg" alt="Cross section plot" width="45%">
 </p>
 
 
