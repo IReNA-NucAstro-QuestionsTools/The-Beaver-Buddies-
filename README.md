@@ -80,10 +80,12 @@ Hence, for each partial wave—of which only the first few contribute significan
 Following this first stage, we developed a Python program to fit the phase shifts for each value of the total angular momentum $J$ by varying the normalization factor $N_R$. As pointed out in the reference work, this procedure introduces a $J$-dependent character into the nuclear potential. The best-fit phase shifts obtained for each partial wave are presented below. Additionally, we include the corresponding $\chi^2$ curves as a function of $N_R$ for $J = 0$, $1$, and $3$, to illustrate how the fitting procedure was performed and to provide insight into the sensitivity of the fit to the choice of $N_R$.
 
 <p align="center">
-  <img src="figures/J0.png" alt="Plot 1" width="45%" style="display:inline-block;">
-  <img src="figures/J1.png" alt="Plot 2" width="45%" style="display:inline-block;">
+  <img src="figures/J0.jpeg" alt="Plot 1" width="45%" style="display:inline-block;">
+  <img src="figures/J1.jpeg" alt="Plot 2" width="45%" style="display:inline-block;">
 </p>
-
+<p align="center">
+  <img src="figures/J3.jpeg" alt="Cross section plot" width="500">
+</p>
 
 
 
