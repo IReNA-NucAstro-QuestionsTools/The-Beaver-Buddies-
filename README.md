@@ -46,7 +46,13 @@ $$
 \nu_{mm}^{BNP} = -U_0e^{(-r/a)^2}\, \hspace{1cm} U_0 = 87.226 MeV \hspace{0.5cm} a = 0.95 fm
 $$
 
+Despite the difference in how energy dependence is treated in SPP2 and BNP, at low energies—relevant for astrophysical scenarios—they are expected to yield similar results. To verify this, we present a comparison between the two potentials in the low-energy regime.
 
+
+
+
+
+This opens up a valuable perspective for future work: repeating the same analysis with the SPP2 potential and comparing the results with those obtained using BNP, in order to confirm the expected equivalence at astrophysical energies.
 
 
 
