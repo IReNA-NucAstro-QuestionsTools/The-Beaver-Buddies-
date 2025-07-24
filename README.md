@@ -58,8 +58,30 @@ The left panel shows the calculated nuclear potentials at an energy of astrophys
 This opens up a valuable perspective for future work: repeating the same analysis with the SPP2 potential and comparing the results with those obtained using BNP, in order to confirm the expected equivalence at astrophysical energies.
 
 
+### Methodology
+
+As previously mentioned, we will adopt the Brazilian Nuclear Potential (BNP) to describe the nuclear interaction. Since we are dealing with an optical potential—which includes both a real part, representing the nuclear interaction between the colliding nuclei, and an imaginary part, accounting for the absorption of flux from the elastic scattering channel—we assume that the optical potential can be written as follows:
+
+$$
+U_{op} = N_R V_N^{BNP} + N_i V_N^{BNP}
+$$
+
+Hence, we assume that the imaginary part of the potential is proportional to its real part. It is important to note that two free parameters are introduced in this approach: $N_R$ and $N_i$. The parameter $N_R$ scales the strength of the real (nuclear) part of the potential, while $N_i$ governs the strength of the imaginary part, which accounts for the absorption of flux from the elastic channel.
+
+The first stage of our analysis consists in investigating the phase shifts for the $^{12}\text{C}+\alpha$ reaction (considering only the first excited state of $^{12}C$), as they are directly related to the resonant behavior observed in the astrophysical S-factor. This connection can be understood through the following expression:
+
+$$
+\delta_J \approx arctan(\frac{\Gamma/2}{E_R-E})
+$$
+
+Hence, for each partial wave—of which only the first few contribute significantly at astrophysical energies—when the system's energy approaches that of a resonance, the corresponding term in the cross section tends to diverge. This behavior manifests as a sharp increase (a "bump") of approximately $\pi$ in the phase shift. Physically, such resonant behavior reflects the formation of a quasi-bound state in the compound nucleus $^{16}$O, which can be interpreted as a configuration of an $\alpha$ particle interacting with a $^{12}$C core.
 
 
+Following this first stage, we developed a Python program to fit the phase shifts for each value of the total angular momentum $J$ by varying the normalization factor $N_R$. As noted in the reference work, this procedure effectively introduces a $J$-dependence into the nuclear potential. The best fits obtained for each partial wave considered are shown below
+
+<p align="center">
+  <img src="figures/Potential_image_page-0001.jpg" alt="Cross section plot" width="500">
+</p>
 
 
 
