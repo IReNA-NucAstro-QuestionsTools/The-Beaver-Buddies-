@@ -77,7 +77,13 @@ $$
 Hence, for each partial wave—of which only the first few contribute significantly at astrophysical energies—when the system's energy approaches that of a resonance, the corresponding term in the cross section tends to diverge. This behavior manifests as a sharp increase (a "bump") of approximately $\pi$ in the phase shift. Physically, such resonant behavior reflects the formation of a quasi-bound state in the compound nucleus $^{16}$O, which can be interpreted as a configuration of an $\alpha$ particle interacting with a $^{12}$C core.
 
 
-Following this first stage, we developed a Python program to fit the phase shifts for each value of the total angular momentum $J$ by varying the normalization factor $N_R$. As pointed out in the reference work, this procedure introduces a $J$-dependent character into the nuclear potential. The best-fit phase shifts obtained for each partial wave are presented below. Additionally, we include the corresponding $\chi^2$ curves as a function of $N_R$ for $J = 0$, $1$, and $3$, to illustrate how the fitting procedure was performed and to provide insight into the sensitivity of the fit to the choice of $N_R$.
+Following this first stage, we developed a Python program which runs **FRESCO** to fit the phase shifts for each value of the total angular momentum $J$ by varying the normalization factor $N_R$. As pointed out in the reference work, this procedure introduces a $J$-dependent character into the nuclear potential. The best-fit phase shifts obtained for each partial wave are presented below. Additionally, we include the corresponding $\chi^2$ curves as a function of $N_R$ for $J = 0$, $1$, and $3$, to illustrate how the fitting procedure was performed and to provide insight into the sensitivity of the fit to the choice of $N_R$.
+
+<p align="center">
+  <img src="figures/Ps.jpg" alt="Plot 1" width="45%" style="display:inline-block;">
+  <img src="figures/ps2.jpg" alt="Plot 2" width="45%" style="display:inline-block;">
+</p>
+
 
 <p align="center">
   <img src="figures/J0.jpeg" alt="Plot 1" width="45%" style="display:inline-block;">
@@ -87,7 +93,29 @@ Following this first stage, we developed a Python program to fit the phase shift
   <img src="figures/J3.jpeg" alt="Cross section plot" width="45%">
 </p>
 
+The best-fit values obtained for each J are presented in the table below
 
+| J | Best-fit $N_R$ | 
+|---|----------------|
+| 0 | 0.8895           |
+| 1 | 0.9698           |      
+| 2 | 0.9491           |      
+| 3 | 0.9774           |      
+| 4 | 0.9023           |      
+| 5 | 0.9997           |      
+
+
+With the best-fit values of $N_R$ determined for each $J$, we can now proceed to calculate the fusion cross section by turning on the imaginary part of the optical potential. The goal at this stage is to reproduce the resonant behavior observed in the experimental data. To achieve this, we adjust the normalization factor $N_i$ for each $J$, as this parameter controls both the width and the height of the resonance associated with that specific partial wave.
+
+Since we are working in the low-energy regime relevant for astrophysics, the imaginary part of the potential is expected to be small. This is indeed what we find: we are able to describe the resonant features with values of $N_i$ on the order of $10^{-10}$ for all $J$.
+
+It is also important to note that while the reaction code FRESCO provides the fusion cross section contribution for each $J$, we used an external Fortran program to convert these outputs into physical cross sections, following the relation given below:
+
+$$
+S(E) = \sigma(E) E e^{2\pi\eta}
+$$
+
+In the figure below, the bottom panel shows the individual contributions of each $J$ to the astrophysical S-factor, while the top panel presents the total S-factor resulting from the sum of all partial waves. A good agreement with the experimental data can be clearly observed, particularly in the resonant regions
 
 
 
