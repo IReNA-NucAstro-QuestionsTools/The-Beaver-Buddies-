@@ -49,8 +49,11 @@ $$
 Despite the difference in how energy dependence is treated in SPP2 and BNP, at low energies—relevant for astrophysical scenarios—they are expected to yield similar results. To verify this, we present a comparison between the two potentials in the low-energy regime.
 
 
+<p align="center">
+  <img src="figures/Potential_image_page-0001.jpg" alt="Cross section plot" width="500">
+</p>
 
-
+The left panel shows the calculated nuclear potentials at an energy of astrophysical interest ($\approx$300 keV). In contrast, the right panel displays the potentials computed at 50 MeV, highlighting a more pronounced difference in potential depth as expected. 
 
 This opens up a valuable perspective for future work: repeating the same analysis with the SPP2 potential and comparing the results with those obtained using BNP, in order to confirm the expected equivalence at astrophysical energies.
 
