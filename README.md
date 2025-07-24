@@ -118,6 +118,13 @@ $$
 In the figure below, the bottom panel shows the individual contributions of each $J$ to the astrophysical S-factor, while the top panel presents the total S-factor resulting from the sum of all partial waves. A good agreement with the experimental data can be clearly observed, particularly in the resonant regions
 
 
+<p align="center">
+  <img src="figures/Sfactor.jpeg" alt="Cross section plot" width="500">
+</p>
+
+The next step was to include an additional state of $^{12}$C — specifically the excited $0^+$ state at 7.654 MeV — in the coupled-channel calculations. The goal was to investigate how the inclusion of inelastic excitations affects the fusion cross section and, consequently, the astrophysical S-factor. In other words, we aim to understand whether, and to what extent, the coupling to this inelastic state influences the fusion process.
+
+We performed the Coupled-Channel Calculation coupling also the Hoyle-State (state above) for each J with the same parameters obtained throught the previous analysis to verify the effects mentioned , in the figure below we show this effect, confirming that coupling more inelastic states do a strong difference in the fusion cross-section, what was our main goal. 
 
 
 
